@@ -14,31 +14,58 @@ header{
     display: flex;
     position: absolute;
 }
+.menu-mobile{
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.menu-mobile ul{
+    width: 80%;
+    list-style: none;
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.menu-mobile ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.menu-mobile ul li a:hover{
+    opacity: 0.5;
+}
 .menu-master{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .menu-master ul{
-    width: 100%;
+    width: 80%;
     list-style: none;
     font-family: Poppins;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
-}
-.menu-master ul li{
-    margin-left: 5%;
 }
 .menu-master ul li a{
     color: white;
     text-decoration: none;
 }
-.menu-master img{
-    width: 50px;
+.itnd-logo{
     position: absolute;
-    margin-right: auto;
+    transform: translateX(-45vw);
+    transition: 0.3s ease-in;
+}
+.itnd-logo:hover{
+    opacity: 0.5;
+}
+.itnd-logo img{
+    width: 50px;
 }
 main{
     display: flex;
@@ -66,19 +93,25 @@ main{
     object-fit: cover;
     object-position: center;
 }
-.title{
+.title-introduction{
     color: white;
     text-align: center;
     font-family: Poppins;
 }
-.title h1{
-    font-size: 40px;
+.title-introduction h1{
+    font-size: 50px;
+    font-weight: 800;
     margin: 0;
 }
-.title p{
+.title-introduction p{
+    margin-top: 0;
     font-size: 14px;
 }
-.video-container button{
+.video-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     background-color: #7EADBF;
     border: none;
     border-radius: 40px;
@@ -87,5 +120,18 @@ main{
     height: 40px;
     width: 150px;
     font-size: 15px;
-    margin-top: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+    transition: 0.3s ease-in;
+}
+.video-container a:hover{
+    filter:brightness(0.7);
+}
+@media (max-width: 868px){
+    .menu-master{
+        display: none;
+    }
+    .menu-mobile{
+        display: flex;
+    }
 }
