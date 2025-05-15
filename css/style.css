@@ -70,7 +70,6 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    margin-top: -10vh;
 }
 .introduction{
     display: flex;
@@ -127,6 +126,10 @@ main{
 }
 .video-container a:hover{
     filter:brightness(0.7);
+}
+.vermelho{
+    background-color: red;
+    height: 500px;
 }
 @media (max-width: 868px){
     .menu-master{
