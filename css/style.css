@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap');
 
 body{
     display: flex;
@@ -75,6 +75,8 @@ main{
     display: flex;
     flex-direction: column;
 }
+
+/* Parte inicial */
 .introduction{
     display: flex;
     width: 100%;
@@ -131,6 +133,46 @@ main{
 .video-container a:hover{
     filter:brightness(0.7);
 }
+
+/* Vicios */
+
+.vicios-container{
+    width: 100%;
+    font-family: Protest Strike;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 20px;
+}
+.vicio-title{
+    font-size: 82px;
+    margin-bottom: 120px;
+}
+.vicio-subtitle{
+    font-family: "Protest Strike";
+    font-size: 52px;
+}
+.vicio-text{
+    width: 60%;
+    font-family: poppins;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px;
+}
+.banner-vicios-container{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.banner-vicios-container img{
+    max-width: 400px;
+    max-height: 180px;
+    border-radius: 10px;
+}
 footer{
     background-color: #211E1E;
     color: white;
@@ -160,6 +202,7 @@ footer{
 }
 .footer-text p{
     max-width: 500px;
+    color: #D9D9D9;
 }
 .classroom-description img{
     width: 500px;
@@ -170,6 +213,7 @@ footer{
     grid-template-columns: repeat(4, 1fr);
     row-gap: 40px;
     align-items: center;
+    justify-content: center;
     gap: 40px;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -281,9 +325,49 @@ footer{
     .menu-mobile{
         display: flex;
     }
+    .menu-mobile ul{
+        margin-left: 30px;
+    }
 
     /* main */
 
+    /* Vicios */
+    .vicios-container{
+        width: 100%;
+        font-family: Protest Strike;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        gap: 50px;
+        padding-bottom: 40px;
+    }
+    .vicio-title{
+        font-size: 54px;
+        margin-bottom: 80px;
+    }
+    .vicio-subtitle{
+        font-family: "Protest Strike";
+        font-size: 24px;
+    }
+    .vicio-text{
+        width: 90%;
+        font-family: poppins;
+        font-size: 14px;
+        padding: 0;
+    }
+    .banner-vicios-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .banner-vicios-container img{
+        max-width: 200px;
+        max-height: 90px;
+        border-radius: 10px;
+    }
     /* footer */
     .classroom-description{
         display: flex;
