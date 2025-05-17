@@ -190,12 +190,26 @@ main{
 .historia-arrows-container{
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
 }
 .historia-arrows-container p {
     color: white;
     font-family: poppins;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
 }
-
+.historia-arrows{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+}
+.facebook-youtube{
+    width: 150px;
+}
 
 /* Vicios */
 
@@ -393,7 +407,32 @@ footer{
     }
 
     /* main */
+    /* Historia */
 
+    .historia-da-internet{
+        flex-direction: column;
+    }
+    .historia-da-internet img{
+        width: 100%;
+    }
+    .historia-da-internet p{
+        width: 100%;
+    }
+    .historia-curiosidades{
+        width: 100%;
+        flex-direction: column;
+    }
+    .historia-curiosidades div p{
+        width: 100%;
+
+    }
+    .historia-arrows-container p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .historia-arrows img{
+        width: 80px;
+    }
     /* Vicios */
     .vicios-container{
         width: 100%;
