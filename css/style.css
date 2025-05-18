@@ -408,6 +408,138 @@ main{
     width: 60%;
 }
 
+/* Impactos */
+.impactos{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-impactos{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: poppins;
+}
+.textos1-impactos{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.textos1-impactos p{
+    padding: 20px;
+}
+.impactos-3{
+    display: flex;
+    width: 100%;
+    font-family: poppins;
+}
+.card-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-left h1{
+    color: white;
+    font-size: 40px;
+}
+.card-rigth h1{
+    color: white;
+    font-size: 40px;
+}
+.card-rigth{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mold{
+    background-color: #000000;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+.mold img{
+    width: 100%;
+}
+.mold p{
+    padding: 20px   ;
+    color: white;
+}
+.mold h3{
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: white;
+}
+.seperacao{
+    
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seperacao img{
+    width: 150px;
+    height:150px;
+}
+.last-card{
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.last-card1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+}
+.last-card1 p{
+    padding: 60px;
+}
+.last-card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+    padding: 20px;
+}
+.last-card1 h2{
+    font-size: 30px;
+    color: white;
+}
+.last-card2 h2{
+    font-size: 30px;
+    color: white;
+}
+.last-card1 p{
+    font-size: 20px;
+    color: white;
+}
+.last-card2 p{
+    font-size: 20px;
+    color: white;
+    
+}
+
 /* Vicios */
 
 .vicios-container{
@@ -606,7 +738,21 @@ footer{
     /* main */
 
     /* Botoes */
-
+    /* Impactos */
+    .impactos-3{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .card-left{
+        width: 100%;
+    }
+    .card-rigth{
+        width: 100%;
+    }
+    .mold{
+        width: 90%;
+    }
     /* Historia */
 
     .historia-da-internet{
