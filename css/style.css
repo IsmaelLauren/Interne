@@ -201,6 +201,7 @@ main{
     padding: 15px;
     border-radius: 40px;
     cursor: pointer;
+    font-weight: 600;
   }
   .apresentacao-2 div{
     border-radius: 20px;
@@ -210,6 +211,7 @@ main{
     font-family: poppins;
   }
   .apresentacao-2 h4{
+    margin-top: auto;
     color: white;
     text-shadow: 5px 5px 2px rgb(32, 32, 32);
     padding: 0;
@@ -589,7 +591,6 @@ main{
     justify-content: center;
 }
 .conteudo-seguranca{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -597,7 +598,6 @@ main{
     margin-top: 40px;
 }
 .card1{
-    
     width: 300px;
     display: flex;
     justify-content: center;
@@ -638,18 +638,19 @@ main{
     padding-right: 10px;
     font-family: poppins;
 }
-.video-seguranca{
+.video-seguranca iframe{
     width: 100%;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.titulo-seguranca{
-    justify-content: center;
+.titulo-seguranca h1{
+    width: 100%;
     display: flex;
+    text-align: center;
     align-items: center;
     color: white;
-    width: 100%;
     font-size: 32px;
     font-family: poppins;
 }
@@ -665,11 +666,7 @@ main{
     width: 45%;
 }
 .video-seguranca iframe{
-    width: 100%;
     border-radius: 20px;
-}
-.video-seguranca{
-    width: 90%;
 }
 
 
