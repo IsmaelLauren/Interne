@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #000000, #0568A6, #0568A6, #211E1E);
+    background: linear-gradient(to bottom, #022840, #0568A6);
     background-repeat: no-repeat;
 }
 header{
@@ -107,7 +107,7 @@ main{
     font-family: Poppins;
 }
 .title-introduction h1{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 800;
     margin: 0;
 }
@@ -203,10 +203,6 @@ main{
     border-radius: 40px;
     cursor: pointer;
     font-weight: 600;
-    transition: 0.2s ease-in-out;
-  }
-  .apresentacao-2 button:hover{
-    filter: brightness(0.7);
   }
   .apresentacao-2 div{
     border-radius: 20px;
@@ -225,7 +221,7 @@ main{
   }
   .apresentacao-5-buttons{
     height: 300px;
-    background: url(../img/apresentacao-5-image.jpg);
+    background: url(../img/Real_Virtual.png);
     width: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -242,7 +238,7 @@ main{
   .apresentacao-4-buttons{
     text-align: center;
     height: 300px;
-    background: url(../img/apresentacao-4-image.jpg);
+    background: url(../img/Pensador_Card.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -260,7 +256,7 @@ main{
     width: 100%;
     font-size: 20px;
     padding-top: 50px;
-    background: url(../img/apresentacao-3-image.jpg);
+    background: url(../img/vicio-card.png);
     display: flex;
     margin-top: 50px;
     background-repeat: no-repeat;
@@ -275,7 +271,7 @@ main{
   .apresentacao-2-buttons{
     text-align: center;
     height: 300px;
-    background: url(../img/apresentacao-2-image.jpg);
+    background: url(../img/apresentacao-2-image.png);
     width: 50%;
     display: flex;
     background-repeat: no-repeat;
@@ -292,7 +288,7 @@ main{
     text-align: center;
     height: 300px;
     width: 50%;
-    background: url(../img/apresentacao-1-image.jpg);
+    background: url(../img/apresentacao-1-image.png);
     display: flex;
     background-repeat: no-repeat;
     background-position: center;
@@ -710,42 +706,9 @@ main{
     justify-content: space-around;
 }
 
-.lista-dicas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 700px;
-    border-radius: 10px;
-    background-color: #326173;
-    margin-top: 100px;
-    height: 500px;
-    color: white;
-}
-.lista-dicas h3{
-    font-size: 25px;
-    font-family: protest strike;
-    font-weight: 400;
-}
-.lista-dicas div{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    gap: 20px;
-}
-.lista-dicas div ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style: none;
-    font-family: protest strike;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-}
 
 footer{
-    background-color: #011C26;
+    background-color: #211E1E;
     color: white;
     display: flex;
     flex-direction: column;
