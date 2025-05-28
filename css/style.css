@@ -706,6 +706,115 @@ main{
     justify-content: space-around;
 }
 
+/* Futuro */
+
+.futuro {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.apresentação_futuro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.apresentação_futuro h1 {
+    font-family: "Protest Strike", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.4), 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.apresentação_futuro p {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.apresentação_futuro span {
+    font-weight: bold;
+}
+
+.imagem_apresentacao {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+
+.imagem_apresentacao img {
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5); 
+    border-radius: 20px;
+}
+
+.imagens_futuro {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    gap: 20px;
+}
+
+.imagem1_futuro {
+    display: flex;
+    justify-self: left;
+    flex-direction: column;
+    background-color: #326173;
+    border-radius: 50px;
+}
+
+.imagem1_futuro img {
+    border-radius: 20px;
+    height: 90%;
+    
+}
+.imagens-futuro-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.imagens-futuro-text div{
+    max-width: 700px;
+    height: 280px;
+    display: flex;
+    background-color: #326173;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.imagens-futuro-text div p{
+    padding: 60px;
+    font-family: poppins;
+}
+
+
+.futuro_2 {
+    height: 475px;
+    width: 310px;
+    padding-bottom: 120px;
+
+}
+
+.blockchain {
+    height: 475px;
+    width: 310px;
+}
+
+
 
 footer{
     background-color: #211E1E;
@@ -983,88 +1092,3 @@ footer{
         height: 200px;
     }
 }
-.futuro {
-
-    color: #ffffff;
-
-}
-
-.apresentação_futuro {
-    color: #ffffff;
-    margin-bottom: -40px;
-    position: relative;
-    top: 750px;
-
-}
-
-.apresentação_futuro h1 {
-    font-family: "Protest Strike", sans-serif;
-    text-align: center;
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.4), 5px 5px 0 rgba(0, 0, 0, 0.3);
-    margin-bottom: 100px;
-}
-.apresentação_futuro p {
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 220px;
-    font-size: 20px;
-    margin-bottom: 700px;
- 
-}
-
-.apresentação_futuro span {
-    font-weight: bold;
-}
-
-.imagem_apresentacao {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: -500px;
-}
-
-.imagem_apresentacao img {
-    width: 1000px;
-    height: 600px;
-    align-items: center;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5); 
-    border-radius: 20px;
-
-
-}
-
-.imagens_futuro {
-    display: flex;
-}
-
-.imagem1_futuro {
-    display: flex;
-    flex-direction: column;
-    background-color: #326173;
-    border-radius: 50px;
-    margin-top: 50px;
-}
-
-.imagem1_futuro img {
-    border-radius: 20px;
-    height: 90%;
-    
-}
-
-
-.futuro_2 {
-    height: 475px;
-    width: 310px;
-    padding-bottom: 120px;
-
-}
-
-.blockchain {
-    height: 475px;
-    width: 310px;
-}
-
